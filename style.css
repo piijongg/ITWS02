@@ -75,10 +75,48 @@ a{
     text-decoration: none;
 }
 
+
+
+.image-section {
+    text-align: center;
+    padding: 1rem 0;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rounded-image-container {
+    flex: 1;
+    padding: 60px;
+    text-align: center;
+}
+
+.action-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 10%;
+}
+.rounded-image-container {
+    flex: 1;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.rounded-image {
+    border-radius: 50%;
+    max-width: 100%;
+    box-shadow: 5px 5px 12px rgb(43, 71, 86);
+}
+
+
+
+
 footer{
-    margin-top: 20px;
-    padding: 40px 20px;
+    margin-top: 130px;
+    padding: 40px 100px;
     background-color: #1D1C36;
+    margin: auto;
 }
 footer ul{
     text-align: center;
