@@ -21,6 +21,7 @@ table,a{
     border: #08091E;
 }
 h1{
+    text-shadow: 5px 8px #1D1C36;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: 100px;
@@ -36,6 +37,31 @@ header img{
     border: 7px solid #E8BDC9;
 
 }
+
+h2{
+    color: #9F4E60;
+    font-size: 40px;
+}
+li{
+    margin-bottom: 8px;
+}
+
+ul, p{
+    margin-top: 3%;
+}
+
+
+a{
+    color: #08091E;
+    font-style:normal; 
+    text-decoration: none;
+}
+
+i {
+    text-decoration: underline;
+}
+
+
 .content,p{
     max-width: 900px;
     margin: 0 auto;
@@ -61,20 +87,7 @@ p.cap3on{
 p.chigiri{
     text-align: center;
 }
-
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 5px;
-
-}
-a{
-    color: #08091E;
-    font-style:normal; 
-    text-decoration: none;
-}
-
+ 
 
 
 .image-section {
@@ -85,6 +98,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 .rounded-image-container {
     flex: 1;
@@ -106,17 +120,25 @@ a{
 .rounded-image {
     border-radius: 50%;
     max-width: 100%;
-    box-shadow: 5px 5px 12px rgb(43, 71, 86);
+    box-shadow: 5px 5px 12px #1D1C36;
+
+}
+.image-container :hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+    color: #1D1C36;
+    
 }
 
 
 
 
+
 footer{
-    margin-top: 130px;
-    padding: 40px 100px;
+    margin-top: 120px;
+    padding: 20px 20px;
     background-color: #1D1C36;
-    margin: auto;
+
 }
 footer ul{
     text-align: center;
@@ -128,14 +150,4 @@ footer ul li{
 }
 footer, a{
     color: #9F4E60;
-}
-h2{
-    color: #9F4E60;
-    font-size: 40px;
-}
-li{
-    margin-bottom: 8px;
-}
-ol, p{
-    margin-top: 3%;
 }
