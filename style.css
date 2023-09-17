@@ -5,7 +5,7 @@
     html, body{
     font-family:sans-serif;
     margin: 0;
-    background-color: rgb(243,225,214);
+    background-color: #F3E1D6;
     color: #1D1C36;
     text-decoration: none;  
 
@@ -15,6 +15,7 @@ header{
     padding: 102px;
     text-align: center;
     padding-top: 20px;
+    
 
 }
 table,a{
@@ -28,7 +29,7 @@ h1{
     color: #F3E1D6;
 }
 p.C{
-    color: #F3E1D6;
+    color: #9F4E60;
 }
 header img{
     margin-top: 5%;
@@ -61,7 +62,6 @@ i {
     text-decoration: underline;
 }
 
-
 .content,p{
     max-width: 900px;
     margin: 0 auto;
@@ -73,9 +73,11 @@ i {
     font-family: 'Times New Roman', Times, serif;
 }
 img.big-image{
+    border-radius: 10px;
     margin-top: 7%;
-    box-shadow: 9px 9px 17px #1D1C36;
     max-width: 100%;
+    margin-left: 20px;
+    box-shadow: 4px 4px 10px #08091E;
 }
 p.cap3on{
     margin-top: 5px;
@@ -87,7 +89,7 @@ p.cap3on{
 p.chigiri{
     text-align: center;
 }
- 
+
 
 
 .image-section {
@@ -101,7 +103,7 @@ p.chigiri{
     margin-top: 50px;
 }
 .rounded-image-container {
-    flex: 1;
+    flex: 1;    
     padding: 60px;
     text-align: center;
 }
@@ -120,11 +122,11 @@ p.chigiri{
 .rounded-image {
     border-radius: 50%;
     max-width: 100%;
-    box-shadow: 5px 5px 12px #1D1C36;
+    box-shadow: 5px 5px 12px #9F4E60;
 
 }
 .image-container :hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: ease-in-out 0.5s;
     color: #1D1C36;
     
